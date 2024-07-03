@@ -90,6 +90,7 @@ export const CardContainer = ({events, sliderValue}) => {
                     width: '100%',
                     height: '300px',
                     objectFit: 'contain',
+                    padding: "18px",
                   },
                 }}
               >

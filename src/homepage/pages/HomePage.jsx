@@ -11,6 +11,7 @@ import {
   Navbar,
   Organization,
   ProgramStructure,
+  
 } from '../components'
 import {CircularProgress} from '@mui/material'
 export const HomePage = () => {
@@ -18,6 +19,7 @@ export const HomePage = () => {
   const [loading, setLoading] = useState(true)
 
   const {info: navbarInfo} = useSelector((state) => state.navbar)
+  
   const {info: heroSectionInfo} = useSelector((state) => state.heroSection)
   const {info: historyInfo} = useSelector((state) => state.history)
   const {info: programStructureInfo} = useSelector(
@@ -39,6 +41,7 @@ export const HomePage = () => {
     if (
       navbarInfo &&
       heroSectionInfo &&
+  
       historyInfo &&
       programStructureInfo &&
       expeditionGroupInfo &&
@@ -52,6 +55,7 @@ export const HomePage = () => {
     navbarInfo,
     heroSectionInfo,
     historyInfo,
+   
     programStructureInfo,
     expeditionGroupInfo,
     eventsInfo,
@@ -67,6 +71,7 @@ export const HomePage = () => {
     <main>
       <Navbar navbarInfo={navbarInfo} />
       <HeroSection heroSectionInfo={heroSectionInfo} />
+     
       <History historyInfo={historyInfo} />
       <ProgramStructure programStructureInfo={programStructureInfo} />
       <ExpeditionGroup expeditionGroupInfo={expeditionGroupInfo} />

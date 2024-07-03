@@ -18,3 +18,7 @@ h5,
 h6 {
   line-height: 120%;
 }
+
+.slider {
+  border: 2px solid red;
+}
