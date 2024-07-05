@@ -14,7 +14,7 @@
     "test:watch": "jest --watchAll",
     "test:ultra": "set TZ=utc && jest --passWithNoTests --watchAll=false --maxWorkers=100% ",
     "predploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@babel/preset-env": "^7.23.6",
