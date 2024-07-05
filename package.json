@@ -1,7 +1,7 @@
 {
   "name": "er-lp",
   "private": true,
-  "homepage": "https://emr1195.github.io/ER-PANAMA/",
+  "homepage": "http://emr1195.github.io/ER-PANAMA/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -13,9 +13,9 @@
     "test": "set TZ=utc && jest --passWithNoTests --watchAll=false --maxWorkers=50%",
     "test:watch": "jest --watchAll",
     "test:ultra": "set TZ=utc && jest --passWithNoTests --watchAll=false --maxWorkers=100% ",
-    "predploy":"npm run build",
-    "deploy":"gh-pages -d dist"
-  },
+    "predploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+   },
   "dependencies": {
     "@babel/preset-env": "^7.23.6",
     "@babel/preset-react": "^7.23.3",
